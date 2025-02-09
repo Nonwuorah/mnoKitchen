@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mama's Nigerian Kitchen</title>
+    <link rel="icon" href="/files/lg1.jpeg" type="image/x-icon" />
+
+    <!-- Internal CSS -->
+    <style>
+      body {
+        font-family: "Georgia", serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f5f0;
+        color: #2c1810;
+      }
+
+      header {
+        text-align: center;
+        padding: 60px 0;
+        margin: -20px -20px 40px -20px;
+        position: relative;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1200")
+            center/cover;
+        color: white;
+        border-bottom: none;
+      }
+
+      header::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, transparent, #8b4513, transparent);
+      }
+
+      .logo {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 3px solid #fff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 1;
+      }
+
+      header h1 {
+        font-size: 2.8em;
+        color: white;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .tagline {
+        font-style: italic;
+        color: #f0f0f0;
+        margin-top: 10px;
+        font-size: 1.2em;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        color: #8b4513;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 20px;
+      }
+
+      .dish-name {
+        font-weight: bold;
+        font-size: 1.2em;
+        color: #2c1810;
+        margin-bottom: 5px;
+      }
+
+      .dish-description {
+        color: #666;
+        font-style: italic;
+        line-height: 1.4;
+      }
+
+      .contact-link {
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #8b4513;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .contact-link:hover {
+        background-color: #6b3410;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 2px solid #8b4513;
+        color: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="/files/logo3.svg" alt="Brand logo" class="logo" />
+      <h1>Mama's Nigerian Kitchen</h1>
+      <!-- <p class="tagline">Authentic Nigerian Flavors in Every Bite</p> -->
+      <p class="tagline">Home of Hot, Healthy, Yummy Meals</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Small Chops</h2>
+        <ul>
+          <li>
+            <div class="dish-name">Puff Puff</div>
+            <div class="dish-description">
+              Traditional Nigerian deep-fried dough balls, perfectly seasoned
+              and served hot with a hint of nutmeg
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Peppered Gizzard</div>
+            <div class="dish-description">
+              Tender chicken gizzards sautéed in spicy pepper sauce with onions
+              and bell peppers
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Meat Pie</div>
+            <div class="dish-description">
+              Flaky pastry filled with seasoned minced meat, potatoes, and
+              carrots
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Spring Rolls</div>
+            <div class="dish-description">
+              Crispy pastry rolls filled with vegetables and minced meat, served
+              with a sweet and spicy dipping sauce
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Samosa</div>
+            <div class="dish-description">
+              Triangular pastry pockets stuffed with spicy minced meat,
+              potatoes, and peas
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Main Dishes</h2>
+        <ul>
+          <li>
+            <div class="dish-name">Jollof Rice</div>
+            <div class="dish-description">
+              Fragrant rice cooked in rich tomato sauce with traditional
+              Nigerian spices, served with grilled chicken
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Egusi Soup with Pounded Yam</div>
+            <div class="dish-description">
+              Ground melon seeds cooked with spinach, assorted meat, and dried
+              fish, served with smooth pounded yam
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Suya</div>
+            <div class="dish-description">
+              Spicy grilled beef skewers marinated in ground peanuts and
+              traditional yaji spices
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Bitterleaf Soup with Fufu</div>
+            <div class="dish-description">
+              Rich soup made from finely ground bitterleaf, assorted meat, and
+              stockfish, served with fufu
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Fried Rice</div>
+            <div class="dish-description">
+              Stir-fried rice with mixed vegetables, prawns, and liver, served
+              with plantain
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Sweets & Drinks</h2>
+        <ul>
+          <li>
+            <div class="dish-name">Chin Chin</div>
+            <div class="dish-description">
+              Crunchy, sweet pastry bites made with flour and nutmeg
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Zobo</div>
+            <div class="dish-description">
+              Refreshing hibiscus drink infused with pineapple and ginger
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Chapman</div>
+            <div class="dish-description">
+              Nigerian special cocktail made with Fanta, Sprite, and a blend of
+              aromatic bitters
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Kunnu</div>
+            <div class="dish-description">
+              Traditional Northern Nigerian drink made from millet or tiger
+              nuts, with a hint of ginger and pepper
+            </div>
+          </li>
+          <li>
+            <div class="dish-name">Palm Wine</div>
+            <div class="dish-description">
+              Natural, sweet, and slightly alcoholic beverage tapped from the
+              sap of palm trees
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <a href="#contact" class="contact-link">Contact Us</a>
+    </main>
+
+    <footer>
+      <p>Hours: Monday - Sunday, 8:00 AM - 10:00 PM</p>
+    </footer>
+  </body>
+</html>
